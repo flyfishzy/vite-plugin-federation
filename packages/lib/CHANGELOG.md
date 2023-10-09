@@ -1,3 +1,44 @@
+## [1.3.2](https://github.com/originjs/vite-plugin-federation/compare/v1.3.1...v1.3.2) (2023-09-28)
+
+
+### Bug Fixes
+
+* Flatten module with default exports when available ([#505](https://github.com/originjs/vite-plugin-federation/issues/505)) ([0bc4f8e](https://github.com/originjs/vite-plugin-federation/commit/0bc4f8ec9eb7105121da823d406cfd071f7f4b65))
+
+
+### Features
+
+* add content hash for shared libraries ([#487](https://github.com/originjs/vite-plugin-federation/issues/487)) ([055c759](https://github.com/originjs/vite-plugin-federation/commit/055c7591a83a1bec6aba82da2b19729c45d7f731))
+
+
+
+## [1.3.1](https://github.com/originjs/vite-plugin-federation/compare/v1.2.3...v1.3.1) (2023-09-11)
+
+
+### Bug Fixes
+
+* improve getSharedFromXXX detect need unwrap module V2 ([#447](https://github.com/originjs/vite-plugin-federation/issues/447)) ([72d9b5a](https://github.com/originjs/vite-plugin-federation/commit/72d9b5ad9bc71f3906ec18f11f45944b14bdfafc))
+* stop reading server configuration when no shared ([#470](https://github.com/originjs/vite-plugin-federation/issues/470)) ([38af31f](https://github.com/originjs/vite-plugin-federation/commit/38af31f6095363f62f4d780bdefd698d8ac60f59))
+
+
+### Features
+
+* dynamic loading of remote support & test demo ([#481](https://github.com/originjs/vite-plugin-federation/issues/481)) ([72a1223](https://github.com/originjs/vite-plugin-federation/commit/72a1223c55ff786d3c21f0af6146c450cd42e708))
+* support multi-config for plugin ([#469](https://github.com/originjs/vite-plugin-federation/issues/469)) ([d1b9fd4](https://github.com/originjs/vite-plugin-federation/commit/d1b9fd4962d35c0cc1c5d451114b38f21bba4c40))
+
+
+
+## [1.2.3](https://github.com/originjs/vite-plugin-federation/compare/v1.2.2...v1.2.3) (2023-05-16)
+
+
+### Bug Fixes
+
+* **dev:** vite --mode always overrides configured mode ([#405](https://github.com/originjs/vite-plugin-federation/issues/405)) ([5f899df](https://github.com/originjs/vite-plugin-federation/commit/5f899dfb960c309b508149cc9b80cf3b50c5cff7)), closes [#404](https://github.com/originjs/vite-plugin-federation/issues/404)
+* monorepo source dependency not found ([#419](https://github.com/originjs/vite-plugin-federation/issues/419)) ([0d91439](https://github.com/originjs/vite-plugin-federation/commit/0d9143944642e1a68405b5258bec1e68de076edf))
+* remote shared generate: false not work V3 ([#399](https://github.com/originjs/vite-plugin-federation/issues/399)) ([880f027](https://github.com/originjs/vite-plugin-federation/commit/880f027c578f2f13b577536536104a1a747a15b0))
+
+
+
 ## [1.2.2](https://github.com/originjs/vite-plugin-federation/compare/v1.2.1...v1.2.2) (2023-04-08)
 
 
